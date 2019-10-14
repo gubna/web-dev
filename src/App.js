@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Card /><br></br><br></br>
       <Cards /><br></br>
-      <Footer />
+      
     </div>
   );
 }
