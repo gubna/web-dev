@@ -8,7 +8,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Joy from '../images/joyoftravel.png';
-import Cawds from './cawds.css';
 import { flexbox } from '@material-ui/system';
 
 const useStyles = makeStyles({
