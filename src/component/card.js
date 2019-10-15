@@ -8,6 +8,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Joy from '../images/joyoftravel.png';
+import Cawds from './cawds.css';
+import { flexbox } from '@material-ui/system';
 
 const useStyles = makeStyles({
   card: {
@@ -16,6 +18,9 @@ const useStyles = makeStyles({
   media: {
     height: 200,
   },
+  content: {
+    paddingLeft: 50,
+  }
 });
 
 export default function MediaCard() {
@@ -29,7 +34,7 @@ export default function MediaCard() {
           image= {Joy}
           title="Joy of Travel"
         />
-        <CardContent>
+        <CardContent className={classes.content}>
           <Typography gutterBottom variant="h5" component="h2">
           Joy Of Vacations
           </Typography>
