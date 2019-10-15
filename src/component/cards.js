@@ -16,7 +16,9 @@ const useStyles = makeStyles({
   media: {
     height: 200,
   },
-  
+  content: {
+    paddingLeft: 50,
+  }
 });
 
 export default function MediaCard() {
@@ -30,7 +32,7 @@ export default function MediaCard() {
           image= {Pond}
           title="Martins Pond"
         />
-        <CardContent>
+        <CardContent className={classes.content}>
           <Typography gutterBottom variant="h5" component="h2">
           Martins Pond
           </Typography>

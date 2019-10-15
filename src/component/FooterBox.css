@@ -1,17 +1,16 @@
-footer {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-    height: 16vh;
-    width: 100vw;
-    background-color: #26508c;
-}
 
 .icons {
-    color: #22424b;
     font-size: 40px;
-    padding-top: 2vw;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+h1 {
+    color: white;
+    padding-left: 1em;
+}
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
