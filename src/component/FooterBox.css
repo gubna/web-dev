@@ -1,16 +1,17 @@
 
 .icons {
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    color: blue;
 }
 h1 {
-    color: white;
+    color: #444444;
     padding-left: 1em;
 }
 p {
-    color: white;
+    color: #444444;
     display: flex;
     justify-content: center;
 }
