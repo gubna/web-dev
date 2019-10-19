@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './FooterBox.css';
+import './FooterBox.css';
 
 function Header() {
   return (
@@ -19,5 +19,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;
