@@ -23,7 +23,7 @@ width="1.4em" height="1.4em"/>
 <Icon icon={materialUi} 
 width="1.4em" height="1.4em"/>
 <Icon icon={googleDevelopersIcon} width="1.4em" height="1.4em" />
-<Icon icon={jamstackIcon} width="1.4em" height="1.4em" />
+
 <Icon icon={webpackIcon} width="1.4em" height="1.4em" />
 <Icon icon={babelIcon} width="1.4em" height="1.4em" />
 <Icon icon={eslintIcon} width="1.4em" height="1.4em" />

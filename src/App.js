@@ -9,14 +9,17 @@ import Code from './component/icons.js';
 import Codes from './component/iconss.js';
 import Codess from './component/iconsss.js';
 import Codesss from './component/iconssss.js';
+import Cardsss from './component/cardsss.js';
+import ElevateAppBar from './component/appbar.js';
 
 function App() {
   return (
     <div className="App">
-      
+      <ElevateAppBar />
       <Header />
-      <Card /><br></br><br></br>
-      <Cards /><br></br><br></br>
+      <Card /><br></br>
+      <Cardsss /><br></br>
+      <Cards /><br></br>
       <Cardss /><br></br>
       <Codesss /><br></br>
       <Codess /><br></br>
