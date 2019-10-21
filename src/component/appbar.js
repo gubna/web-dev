@@ -7,6 +7,9 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
+import './FooterBox.css';
 
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -39,8 +42,8 @@ export default function ElevateAppBar(props) {
       <CssBaseline />
       <ElevationScroll {...props}>
         <AppBar>
-          <Toolbar>
-            <Typography variant="h6">The front end portfolio of Steven Agri</Typography>
+          <Toolbar><SocialIcon url="https://github.com/gubna" /><SocialIcon url="https://twitter.com/Stevenagri" /><SocialIcon url="https://linkedin.com/in/steven-agri-242b0431" />
+            <Typography variant="h6"></Typography>
           </Toolbar>
         </AppBar>
       </ElevationScroll>
