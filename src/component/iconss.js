@@ -10,7 +10,7 @@ import jamstackIcon from '@iconify/icons-logos/jamstack';
 import webpackIcon from '@iconify/icons-logos/webpack';
 import babelIcon from '@iconify/icons-logos/babel';
 import eslintIcon from '@iconify/icons-logos/eslint';
-import dockerIcon from '@iconify/icons-logos/docker-icon';
+
 
 function Codes () {
 return (
@@ -23,11 +23,10 @@ width="1.4em" height="1.4em"/>
 <Icon icon={materialUi} 
 width="1.4em" height="1.4em"/>
 <Icon icon={googleDevelopersIcon} width="1.4em" height="1.4em" />
-
 <Icon icon={webpackIcon} width="1.4em" height="1.4em" />
 <Icon icon={babelIcon} width="1.4em" height="1.4em" />
 <Icon icon={eslintIcon} width="1.4em" height="1.4em" />
-<Icon icon={dockerIcon} width="1.4em" height="1.4em" />
+
 
 </div>
 );

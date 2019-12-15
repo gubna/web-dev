@@ -17,8 +17,10 @@ import './FooterBox.css'
 
 function Codesss () {
     return (
+        <React.Fragment>
     <div className="title">
-    <p>Languages, Libraries, Frameworks, Technologies, and Services I am familiar with.</p><br></br>
+    Languages, Libraries, Frameworks, Technologies, and Services I am familiar with.<br></br>
+    </div>
     
     <div className="icons">
 
@@ -42,7 +44,7 @@ function Codesss () {
     <Icon icon={npmIcon} 
     width="1.4em" height="1.4em"/>
 </div>
-</div>
+</React.Fragment>
 );
 }
 export default Codesss;
