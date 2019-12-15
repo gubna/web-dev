@@ -1,6 +1,6 @@
 
 .icons {
-    font-size: 45px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -9,8 +9,17 @@
 h1 {
     display: flex;
     justify-content: center;
+    color: #00aced;
+    font-size: 22px;
 }
 p{
     display: flex;
     justify-content: center;
+    color: #00aced;
+    font-size: 18px;
+}
+.title {
+    color: #20323c;
+    font-size: 20px;
+    padding: 1.5em;
 }

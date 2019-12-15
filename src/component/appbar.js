@@ -9,7 +9,7 @@ import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
-import './FooterBox.css';
+
 
 function ElevationScroll(props) {
   const { children, window } = props;
