@@ -1,12 +1,13 @@
 import React from 'react';
-import Card from './component/card.js';
+import Joy from './component/joyoftravel.js';
 import Header from './component/header.js';
-import Cards from './component/cards';
-import Cardss from './component/cardss.js';
+import Pond from './component/martinspond';
+import Bio from './component/bios.js';
 import Codes from './component/iconss.js';
 import Codess from './component/iconsss.js';
 import Codesss from './component/iconssss.js';
-import Cardsss from './component/cardsss.js';
+import Optigrab from './component/optigrab.js';
+import Smurt from './component/verysmurt.js';
 import ElevateAppBar from './component/appbar.js';
 import './App.css';
 
@@ -17,10 +18,12 @@ function App() {
     <div className="container">
       <ElevateAppBar />
       <Header />
-      <Card /><br></br>
-      <Cardsss /><br></br>
-      <Cards /><br></br>
-      <Cardss /><br></br>
+      <Bio /><br></br>
+      <Joy /><br></br>
+      <Optigrab /><br></br>
+      <Smurt /><br></br>
+      <Pond /><br></br>
+      
       <Codesss /><br></br>
       <Codess /><br></br>
       <Codes />
