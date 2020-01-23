@@ -12,15 +12,19 @@ import sassIcon from '@iconify/icons-logos/sass';
 import jqueryIcon from '@iconify/icons-logos/jquery';
 import nodejsIcon from '@iconify/icons-logos/nodejs';
 import npmIcon from '@iconify/icons-logos/npm';
-import './FooterBox.css'
+import './FooterBox.css';
+import styled from 'styled-components';
 
+const Title = styled.p`
+        color: #00aced;
+        `;
 
 function Codesss () {
     return (
         <React.Fragment>
-    <div className="title">
+    <Title><div className="title">
     Languages, Libraries, Frameworks, Technologies, and Services I am familiar with.<br></br>
-    </div>
+    </div></Title>
     
     <div className="icons">
 
