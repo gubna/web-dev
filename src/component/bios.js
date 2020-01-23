@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import People from '../images/Some Names Bios of Interesting People.png';
-import { flexbox } from '@material-ui/system';
+
 
 const useStyles = makeStyles({
   card: {
