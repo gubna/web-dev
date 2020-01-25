@@ -1,19 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Padd =styled.div`
-    text-align: center;
-    width: 100%;
-    padding: 2em;
-    `;
 
 function Mail() {
     return (
         <React.Fragment>
-            <Padd>
+            
           <h2> Give Feedback On My Website.</h2>
           
-          <form action="mailto:stevenagri1@gmail.com" method="get" encType="text/plain">
+          <form action="mailto:steven@stevenagri.com" method="get" encType="text/plain">
             <p>Name: <input type="text" name="name" /></p>
             <p>Email: <input type="text" name="email" /></p>
             <p>Comments:
@@ -26,7 +20,7 @@ function Mail() {
             </p>
             
           </form>
-          </Padd>
+       
           </React.Fragment>
       );
     }

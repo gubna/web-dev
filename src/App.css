@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 .container{
    background-image: url(./images/back.jpg);
    background-position: center;
@@ -6,7 +8,7 @@
     background-size: cover;
     position: relative;
    text-align: center;
-  padding: 6vw;
+    padding: 7vw;
   }
 
 .App {
