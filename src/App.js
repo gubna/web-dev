@@ -9,6 +9,7 @@ import Codesss from './component/iconssss.js';
 import Optigrab from './component/optigrab.js';
 import Smurt from './component/verysmurt.js';
 import ElevateAppBar from './component/appbar.js';
+import Mail from './component/mail.js';
 import './App.css';
 import styled from 'styled-components'
 
@@ -24,16 +25,18 @@ function App() {
     <div className="container">
     
       <ElevateAppBar />
-      <Header />
-      <Shadow><Bio /></Shadow><br></br>
-      <Shadow><Joy /></Shadow><br></br>
-      <Shadow><Optigrab /></Shadow><br></br>
-      <Shadow><Smurt /></Shadow><br></br>
-      <Shadow><Pond /></Shadow><br></br><br></br>
+      <Header /><br></br>
+      <Shadow><Bio /></Shadow><br></br><br></br><br></br>
+      <Shadow><Joy /></Shadow><br></br><br></br><br></br>
+      <Shadow><Optigrab /></Shadow><br></br><br></br><br></br>
+      <Shadow><Smurt /></Shadow><br></br><br></br><br></br>
+      <Shadow><Pond /></Shadow><br></br><br></br><br></br>
       
-      <Codesss /><br></br>
-      <Codess /><br></br>
-      <Codes />
+      <Codesss /><br></br><br></br>
+      <Codess /><br></br><br></br>
+      <Codes /><br></br><br></br>
+
+    <Mail /><br></br><br></br><br></br>
 
     </div>
     </div>
